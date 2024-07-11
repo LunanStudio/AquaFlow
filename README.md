@@ -26,4 +26,4 @@
 - **backend/**
   - Código del backend desarrollado con Node.js.
 - **canisters/**
-  - Código de los contratos inteligentes desarrollados en Rust.
+  - Código de los contratos inteligentes desarrollados con Azle.

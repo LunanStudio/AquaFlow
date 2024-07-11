@@ -1,0 +1,27 @@
+{
+  "name": "AquaFlow",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AquaFlow es una plataforma innovadora que utiliza la tecnología de Internet Computer Protocol (ICP) para ofrecer una gestión eficiente y segura de los servicios de agua.",
+  "scripts": {
+    "dev:backend": "node src/backend/index.js",
+    "dev:frontend": "next dev src/frontend",
+    "dev": "concurrently \"pnpm dev:backend\" \"pnpm dev:frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "azle": "^0.22.0",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
