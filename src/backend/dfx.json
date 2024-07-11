@@ -1,0 +1,19 @@
+{
+  "canisters": {
+    "aqua_flow_backend": {
+      "type": "custom",
+      "main": "src/backend/index.ts",
+      "candid": "src/backend/canisters/index.did",
+      "candid_gen": "http",
+      "wasm": "src/backend/canisters/backend.wasm",
+      "build": "npx azle src/backend/canister"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
