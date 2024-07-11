@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="AFD"
+                 name="AquaFlow Docs" start-page="README.md">
+
+    <toc-element topic="README.md">
+        <toc-element topic="Introducción.md"/>
+        <toc-element topic="Installation.md"/>
+        <toc-element topic="Propósito-del-MVP.md"/>
+        <toc-element topic="Estructura-del-Proyecto.md"/>
+    </toc-element>
+    <toc-element topic="descripcion-proyecto.md">
+        <toc-element topic="Beneficios-Clave.md"/>
+        <toc-element topic="Problemas-a-Resolver.md"/>
+    </toc-element>
+    <toc-element topic="objetivos.md">
+        <toc-element topic="Descentralización.md"/>
+        <toc-element topic="Autenticación-Segura.md"/>
+        <toc-element topic="Eficiencia.md"/>
+    </toc-element>
+    <toc-element topic="Modelos-de-Negocios-y-Usabilidad.md">
+        <toc-element topic="Modelo-de-Negocios.md"/>
+        <toc-element topic="Usabilidad.md"/>
+    </toc-element>
+    <toc-element topic="Funcionalidades-Clave.md">
+        <toc-element topic="Registro-y-Autenticación-de-Usuarios.md"/>
+        <toc-element topic="Gestión-de-Datos-Personales.md"/>
+        <toc-element topic="Historial-de-Consumo-y-Pagos.md"/>
+        <toc-element topic="Pagos-y-Recargas.md"/>
+    </toc-element>
+    <toc-element topic="Stack-Tecnológico.md">
+        <toc-element topic="Frontend.md"/>
+        <toc-element topic="Backend.md"/>
+        <toc-element topic="ICP-Internet-Computer-Protocol.md"/>
+    </toc-element>
+    <toc-element topic="Integración-con-ICP.md">
+        <toc-element topic="Comunicación-entre-Node-js-y-Canisters.md"/>
+        <toc-element topic="Desarrollo-de-Canisters.md"/>
+        <toc-element topic="Uso-de-Azle.md">
+            <toc-element topic="Ventajas-de-Azle-para-el-Proeycto.md"/>
+            <toc-element topic="Integración-de-Azle-en-el-Proyecto.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="Modelos-de-Implementación-y-Escalabilidad.md">
+        <toc-element topic="Modelo-de-Implementación.md"/>
+        <toc-element topic="Escalabilidad.md"/>
+    </toc-element>
+    <toc-element topic="Información-Técnica.md">
+        <toc-element topic="Arquitectura-del-Sistema.md"/>
+        <toc-element topic="Guía-de-API.md"/>
+    </toc-element>
+</instance-profile>
